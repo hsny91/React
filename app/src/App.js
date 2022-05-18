@@ -1,11 +1,14 @@
-import logo from './logo.svg';
+import "./App.css";
+import Dashboard from "./components/Dashboard.js";
+import logo from "./logo.svg";
 import Home from "./components/home.js";
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-     <Home />
+      <Dashboard />
+      <Home />
     </div>
   );
 }
